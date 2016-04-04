@@ -1,3 +1,4 @@
+sources/_build
 *.py[co]
 *.swp
 
