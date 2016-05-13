@@ -16,9 +16,8 @@
 import sys
 import os
 import sphinx_rtd_theme
-import sphinx_bootstrap_theme
 
-theme = sphinx_rtd_theme # sphinx_bootstrap_theme
+theme = sphinx_rtd_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -53,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'HARDroid'
-copyright = '2016, Alberto G.'
+copyright = '2016, Alberto G., Santiago Y.'
 author = 'Alberto G.'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -115,12 +114,12 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = "sphinx_rtd_theme" #"bootstrap"
+html_theme = "sphinx_rtd_theme"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {'bootswatch_theme': "paper"}
+#html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = [theme.get_html_theme_path()]
@@ -134,12 +133,12 @@ html_theme_path = [theme.get_html_theme_path()]
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+html_logo = '_static/logo.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-#html_favicon = None
+html_favicon = '_static/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

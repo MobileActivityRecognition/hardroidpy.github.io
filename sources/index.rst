@@ -7,9 +7,6 @@
 HARDROID
 ########
 
-.. image:: images/web_hi_res_512.png
-   :scale: 25%
-
 Human Activity Recognition For Android
 ======================================
 
@@ -28,13 +25,18 @@ verificar la documentación `JavaDoc <javadoc/index.html>`_ para saber más deta
 
 Autores
 ------- 
-- Alberto G.
-- Santiago Y.
+- `Alberto G. <https://github.com/agimenezpy>`_
+- `Santiago Y. <https://github.com/syegros>`_
 
-Contents:
+Contenido:
 
 .. toctree::
-   :maxdepth: 2
-   
+   :titlesonly:
+
+   intro
+   first
+   contribute
+   configure
+   glossary
 
 
