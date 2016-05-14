@@ -17,24 +17,23 @@ Este proyecto es un servicio de reconocimiento de actividades humanas
 para Android. Utiliza dos componentes de librería y un APK de servicio
 para reutilizar el código.
 
-Puedes ver el abance del proyecto en el repositorio `GitHub <https://github.com/hardroidpy>`_ |github| y 
-verificar la documentación `JavaDoc <javadoc/index.html>`_ para saber más detalles del funcionamiento de la :term:`API`.
-
-.. |github| image:: images/octocat-icon.png 
-
+Puedes ver el abance del proyecto en el repositorio `GitHub <https://github.com/hardroidpy>`_  y 
+verificar la documentación `JavaDoc <javadoc/index.html>`_ para saber más detalles del
+funcionamiento de la :term:`API`.
 
 Autores
 ------- 
 - `Alberto G. <https://github.com/agimenezpy>`_
 - `Santiago Y. <https://github.com/syegros>`_
 
-Contenido:
+.. _har-content:
 
 .. toctree::
-   :titlesonly:
+   :caption: Tabla de Contenido
+   :maxdepth: 1
 
    intro
-   first_step
+   first
    contribute
    configure
    glossary

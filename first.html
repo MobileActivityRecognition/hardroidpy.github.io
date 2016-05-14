@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>¿Qué es HARDroid? &mdash; documentación de HARDroid - 1.0</title>
+  <title>Primeros Pasos &mdash; documentación de HARDroid - 1.0</title>
   
 
   
@@ -34,7 +34,7 @@
   
     <link rel="top" title="documentación de HARDroid - 1.0" href="index.html"/>
         <link rel="next" title="Glosario" href="glossary.html"/>
-        <link rel="prev" title="HARDROID" href="index.html"/>
+        <link rel="prev" title="¿Qué es HARDroid?" href="intro.html"/>
  
 <link rel="apple-touch-icon" href="_static/apple-touch-icon-precomposed.png">
 
@@ -91,7 +91,15 @@
             
                 <p class="caption"><span class="caption-text">Tabla de Contenido</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">¿Qué es HARDroid?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">¿Qué es HARDroid?</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Primeros Pasos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#instalar-las-apps">Instalar las Apps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#instalar-la-encuesta">Instalar la Encuesta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#instalar-el-reconocedor">Instalar el Reconocedor</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glosario</a></li>
 </ul>
 
@@ -123,7 +131,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>¿Qué es HARDroid?</li>
+    <li>Primeros Pasos</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -135,30 +143,28 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="que-es-hardroid">
-<span id="har-intro"></span><h1>¿Qué es HARDroid?<a class="headerlink" href="#que-es-hardroid" title="Enlazar permanentemente con este título">¶</a></h1>
-<p><em>HARDroid</em> es un proyecto <em>Open Source</em> que tiene como objetivo tener una implementación abierta del servicio de
-reconocimiento de actividades físicas utilizando sensores del celular.</p>
-<p>Nuestro proyecto se enfoca, bajo el mismo concepto de desacomplamiento de Librería API y APK de servicio, de proveer una
-funcionalidad de reconocimiento de actividades físicas.</p>
-<p>La idea nace del producto de Google - <a class="reference external" href="https://play.google.com/store/apps/details?id=com.google.android.gms&amp;hl=en">Google Play Services</a>
-que proporciona dentro de una <span class="xref std std-term">APK</span> la implementación de algoritmos, y además los desarrolladores de aplicaciones
-Android pueden integrarse (a través de una <a class="reference external" href="https://developers.google.com/android/guides/overview">API</a>) a varias
-funcionalidades utilitarias en las siguientes dimensiones:</p>
-<blockquote>
-<div><dl class="docutils">
-<dt>Location &amp; Context</dt>
-<dd>Provee funcionalidades para mejorar la precisión y calidad de la ubicación GPS del celular basado en sensores.
-Además, la función <em>contexto</em> provee la capacidad de reconocer las actividades físicas</dd>
-<dt>Ads</dt>
-<dd>Provee funcionalidades para ofrecer publicidad in la aplicación</dd>
-<dt>Games</dt>
-<dd>Provee funcionalidades para Gamificar la aplicación</dd>
-<dt>Cloud Messaging</dt>
-<dd>Provee funcionalidades para mensajería a travéz de Internet.</dd>
-</dl>
-<p><img alt="google-services" src="https://developers.google.com/android/images/play-services-diagram.png" /></p>
-</div></blockquote>
+  <div class="section" id="primeros-pasos">
+<span id="har-first"></span><h1>Primeros Pasos<a class="headerlink" href="#primeros-pasos" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="instalar-las-apps">
+<h2>Instalar las Apps<a class="headerlink" href="#instalar-las-apps" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El proyecto se compone de dos (2) aplicaciones Android que se comunican por medio de el protocolo IBINDER de manera a
+independizar las funciones de encuesta y servicio de reconocimiento.</p>
+<a class="reference internal image-reference" href="_images/archi_ipc.png"><img alt="_images/archi_ipc.png" src="_images/archi_ipc.png" style="width: 301.5px; height: 253.5px;" /></a>
+<p>Para contribuir con la recolección de datos sigue los pasos para instalar en tu celular las aplicaciones.</p>
+<div class="section" id="instalar-la-encuesta">
+<span id="har-survey"></span><h3>Instalar la Encuesta<a class="headerlink" href="#instalar-la-encuesta" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Para instalar la aplicación <span class="xref std std-term">Activity Survey</span> de encuesta accede a este URL <a class="reference external" href="https://goo.gl/GjmMl3">https://goo.gl/GjmMl3</a> o por medio de la siguiente
+imagen:</p>
+<img src="_images/qr_url.svg" /><p>Registrate con tu cuenta de Google y acepta ser un <em>beta tester</em>.</p>
+<a class="reference internal image-reference" href="_images/inst_app4.jpg"><img alt="_images/inst_app4.jpg" src="_images/inst_app4.jpg" style="width: 270.0px; height: 480.0px;" /></a>
+</div>
+<div class="section" id="instalar-el-reconocedor">
+<h3>Instalar el Reconocedor<a class="headerlink" href="#instalar-el-reconocedor" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Luego de instalar y configurar por primera vez (vease <span class="xref std std-ref">har-config</span>), la applicación <em>Activity Survey</em>
+te guiará a la instalación del reconocedor publicado en <em>Google Play Store</em>.</p>
+<a class="reference internal image-reference" href="_images/install_service.jpg"><img alt="_images/install_service.jpg" src="_images/install_service.jpg" style="width: 270.0px; height: 480.0px;" /></a>
+</div>
+</div>
 </div>
 
 
@@ -171,7 +177,7 @@ Además, la función <em>contexto</em> provee la capacidad de reconocer las acti
         <a href="glossary.html" class="btn btn-neutral float-right" title="Glosario" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral" title="HARDROID" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="intro.html" class="btn btn-neutral" title="¿Qué es HARDroid?" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
