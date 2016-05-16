@@ -33,7 +33,7 @@
 
   
     <link rel="top" title="documentación de HARDroid - 1.0" href="index.html"/>
-        <link rel="next" title="Glosario" href="glossary.html"/>
+        <link rel="next" title="Configurar Activity Survey" href="config.html"/>
         <link rel="prev" title="¿Qué es HARDroid?" href="intro.html"/>
  
 <link rel="apple-touch-icon" href="_static/apple-touch-icon-precomposed.png">
@@ -93,13 +93,16 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">¿Qué es HARDroid?</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Primeros Pasos</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#instalar-las-apps">Instalar las Apps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#instalar-las-aplicaciones">Instalar las Aplicaciones</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#instalar-la-encuesta">Instalar la Encuesta</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#instalar-el-reconocedor">Instalar el Reconocedor</a></li>
 </ul>
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="config.html">Configurar <em>Activity Survey</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="contrib.html">Contribuir con <em>Activity Survey</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="config_adic.html">Configuración Adicional</a></li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glosario</a></li>
 </ul>
 
@@ -145,24 +148,67 @@
             
   <div class="section" id="primeros-pasos">
 <span id="har-first"></span><h1>Primeros Pasos<a class="headerlink" href="#primeros-pasos" title="Enlazar permanentemente con este título">¶</a></h1>
-<div class="section" id="instalar-las-apps">
-<h2>Instalar las Apps<a class="headerlink" href="#instalar-las-apps" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="instalar-las-aplicaciones">
+<h2>Instalar las Aplicaciones<a class="headerlink" href="#instalar-las-aplicaciones" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>El proyecto se compone de dos (2) aplicaciones Android que se comunican por medio de el protocolo IBINDER de manera a
 independizar las funciones de encuesta y servicio de reconocimiento.</p>
-<a class="reference internal image-reference" href="_images/archi_ipc.png"><img alt="_images/archi_ipc.png" src="_images/archi_ipc.png" style="width: 301.5px; height: 253.5px;" /></a>
+<a class="reference internal image-reference" href="_images/archi_ipc.png"><img alt="_images/archi_ipc.png" src="_images/archi_ipc.png" style="width: 482.40000000000003px; height: 405.6px;" /></a>
 <p>Para contribuir con la recolección de datos sigue los pasos para instalar en tu celular las aplicaciones.</p>
 <div class="section" id="instalar-la-encuesta">
 <span id="har-survey"></span><h3>Instalar la Encuesta<a class="headerlink" href="#instalar-la-encuesta" title="Enlazar permanentemente con este título">¶</a></h3>
-<p>Para instalar la aplicación <span class="xref std std-term">Activity Survey</span> de encuesta accede a este URL <a class="reference external" href="https://goo.gl/GjmMl3">https://goo.gl/GjmMl3</a> o por medio de la siguiente
+<p>Para instalar la aplicación <a class="reference internal" href="glossary.html#term-activity-survey"><span class="xref std std-term">Activity Survey</span></a> de encuesta accede a este URL <a class="reference external" href="https://goo.gl/GjmMl3">https://goo.gl/GjmMl3</a> o por medio de la siguiente
 imagen:</p>
-<img src="_images/qr_url.svg" /><p>Registrate con tu cuenta de Google y acepta ser un <em>beta tester</em>.</p>
-<a class="reference internal image-reference" href="_images/inst_app4.jpg"><img alt="_images/inst_app4.jpg" src="_images/inst_app4.jpg" style="width: 270.0px; height: 480.0px;" /></a>
+<div class="figure" id="id1">
+<img alt="QR Code del URL" src="_images/qr_url.svg" /><p class="caption"><span class="caption-text">Acceso al instalador <em>Activity Survey</em></span></p>
+</div>
+<p>Registrate con tu cuenta de Google y acepta ser un <em>beta tester</em>.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ingresar el URL</th>
+<th class="head">Logearse a Google</th>
+<th class="head">Aceptar ser tester</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="_images/inst_app.jpg"><img alt="step_1" src="_images/inst_app.jpg" style="width: 270.0px; height: 480.0px;" /></a></td>
+<td><a class="reference internal" href="_images/inst_app2.jpg"><img alt="step_2" src="_images/inst_app2.jpg" style="width: 270.0px; height: 480.0px;" /></a></td>
+<td><a class="reference internal" href="_images/inst_app4.jpg"><img alt="step_3" src="_images/inst_app4.jpg" style="width: 270.0px; height: 480.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Luego de aceptar ser beta tester seguir el enlace para descargar la aplicación desde
+<a class="reference external" href="https://play.google.com/store/apps/details?id=org.harsurvey.android.survey&amp;ah=GrnRu_BrV1psAZv5dXFHUqJA0so">Google Play Store</a>.</p>
+<div class="figure" id="id2">
+<a class="reference internal image-reference" href="_images/inst_app5.jpg"><img alt="instalación de la encuesta" src="_images/inst_app5.jpg" style="width: 270.0px; height: 480.0px;" /></a>
+<p class="caption"><span class="caption-text">Instalador desde Google Play</span></p>
+</div>
+<p>Para finalizar debes configurar la aplicación siguiendo los pasos en <a class="reference internal" href="config.html#har-config"><span class="std std-ref">Configurar Activity Survey</span></a>.</p>
 </div>
 <div class="section" id="instalar-el-reconocedor">
 <h3>Instalar el Reconocedor<a class="headerlink" href="#instalar-el-reconocedor" title="Enlazar permanentemente con este título">¶</a></h3>
-<p>Luego de instalar y configurar por primera vez (vease <span class="xref std std-ref">har-config</span>), la applicación <em>Activity Survey</em>
-te guiará a la instalación del reconocedor publicado en <em>Google Play Store</em>.</p>
-<a class="reference internal image-reference" href="_images/install_service.jpg"><img alt="_images/install_service.jpg" src="_images/install_service.jpg" style="width: 270.0px; height: 480.0px;" /></a>
+<p>Luego de instalar y configurar la aplicación de encuesta <em>Activity Survey</em> (vease <a class="reference internal" href="config.html#har-config"><span class="std std-ref">Configurar Activity Survey</span></a>),
+al intentar utilizar el servicio este te pedira instalar del <em>Google Play Store</em> el servicio reconocedor <em>HARDroid</em>.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Sugerencia para HARDroid</th>
+<th class="head">Instalar del Play Store</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="_images/install_service.jpg"><img alt="step_4" src="_images/install_service.jpg" style="width: 270.0px; height: 480.0px;" /></a></td>
+<td><a class="reference internal" href="_images/inst_servplay.jpg"><img alt="step_5" src="_images/inst_servplay.jpg" style="width: 270.0px; height: 480.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -174,7 +220,7 @@ te guiará a la instalación del reconocedor publicado en <em>Google Play Store<
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="glossary.html" class="btn btn-neutral float-right" title="Glosario" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="config.html" class="btn btn-neutral float-right" title="Configurar Activity Survey" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="intro.html" class="btn btn-neutral" title="¿Qué es HARDroid?" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

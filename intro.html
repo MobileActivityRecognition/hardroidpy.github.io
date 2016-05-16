@@ -33,7 +33,7 @@
 
   
     <link rel="top" title="documentación de HARDroid - 1.0" href="index.html"/>
-        <link rel="next" title="Glosario" href="glossary.html"/>
+        <link rel="next" title="Primeros Pasos" href="first.html"/>
         <link rel="prev" title="HARDROID" href="index.html"/>
  
 <link rel="apple-touch-icon" href="_static/apple-touch-icon-precomposed.png">
@@ -91,7 +91,16 @@
             
                 <p class="caption"><span class="caption-text">Tabla de Contenido</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">¿Qué es HARDroid?</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">¿Qué es HARDroid?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#hardroid">HARDroid</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#google-play-services">Google Play Services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sony-lifelog">Sony LifeLog</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="first.html">Primeros Pasos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config.html">Configurar <em>Activity Survey</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="contrib.html">Contribuir con <em>Activity Survey</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="config_adic.html">Configuración Adicional</a></li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glosario</a></li>
 </ul>
 
@@ -137,12 +146,19 @@
             
   <div class="section" id="que-es-hardroid">
 <span id="har-intro"></span><h1>¿Qué es HARDroid?<a class="headerlink" href="#que-es-hardroid" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="hardroid">
+<h2>HARDroid<a class="headerlink" href="#hardroid" title="Enlazar permanentemente con este título">¶</a></h2>
 <p><em>HARDroid</em> es un proyecto <em>Open Source</em> que tiene como objetivo tener una implementación abierta del servicio de
 reconocimiento de actividades físicas utilizando sensores del celular.</p>
-<p>Nuestro proyecto se enfoca, bajo el mismo concepto de desacomplamiento de Librería API y APK de servicio, de proveer una
+<p>Nuestro proyecto implementa el concepto de desacomplamiento de una Librería API y una APK de servicio que provee la
 funcionalidad de reconocimiento de actividades físicas.</p>
-<p>La idea nace del producto de Google - <a class="reference external" href="https://play.google.com/store/apps/details?id=com.google.android.gms&amp;hl=en">Google Play Services</a>
-que proporciona dentro de una <span class="xref std std-term">APK</span> la implementación de algoritmos, y además los desarrolladores de aplicaciones
+<p>La idea nace de dos (2) productos similares de Google y Sony que realizan reconocimiento de actividades los cuales son
+<a class="reference internal" href="#har-google-play-services"><span class="std std-ref">Google Play Services</span></a> y <a class="reference internal" href="#har-life-log"><span class="std std-ref">Sony LifeLog</span></a>.</p>
+</div>
+<div class="section" id="google-play-services">
+<span id="har-google-play-services"></span><h2>Google Play Services<a class="headerlink" href="#google-play-services" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Google dispone del producto <a class="reference external" href="https://play.google.com/store/apps/details?id=com.google.android.gms&amp;hl=en">Google Play Services</a>
+que proporciona dentro de una <a class="reference internal" href="glossary.html#term-apk"><span class="xref std std-term">APK</span></a> la implementación de algoritmos, y además los desarrolladores de aplicaciones
 Android pueden integrarse (a través de una <a class="reference external" href="https://developers.google.com/android/guides/overview">API</a>) a varias
 funcionalidades utilitarias en las siguientes dimensiones:</p>
 <blockquote>
@@ -160,6 +176,32 @@ Además, la función <em>contexto</em> provee la capacidad de reconocer las acti
 <p><img alt="google-services" src="https://developers.google.com/android/images/play-services-diagram.png" /></p>
 </div></blockquote>
 </div>
+<div class="section" id="sony-lifelog">
+<span id="har-life-log"></span><h2>Sony LifeLog<a class="headerlink" href="#sony-lifelog" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Sony dispone de un producto registrar las actividades diarias de las personas por medio de sensores
+del celular o por medio de las relojes <em>smartwatch</em>. Para esto proveen una aplicación de rastreo de actividades
+diarias con un reconocedor de actividades propio.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Inicio LifeLog</th>
+<th class="head">Configuración</th>
+<th class="head">Acerca del Reconocedor</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="_images/lf_start.jpg"><img alt="lflog_1" src="_images/lf_start.jpg" style="width: 270.0px; height: 480.0px;" /></a></td>
+<td><a class="reference internal" href="_images/lf_conf.jpg"><img alt="lflog_2" src="_images/lf_conf.jpg" style="width: 270.0px; height: 480.0px;" /></a></td>
+<td><a class="reference internal" href="_images/lf_actrec.jpg"><img alt="lflog_3" src="_images/lf_actrec.jpg" style="width: 270.0px; height: 480.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 
 
            </div>
@@ -168,7 +210,7 @@ Además, la función <em>contexto</em> provee la capacidad de reconocer las acti
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="glossary.html" class="btn btn-neutral float-right" title="Glosario" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="first.html" class="btn btn-neutral float-right" title="Primeros Pasos" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="index.html" class="btn btn-neutral" title="HARDROID" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -34,8 +34,9 @@ Autores
 
    intro
    first
-   contribute
-   configure
+   config
+   contrib
+   config_adic
    glossary
 
 

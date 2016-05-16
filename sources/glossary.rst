@@ -19,3 +19,5 @@ Glosario
     Activity Survey
         Es el nombre con el que fue bautizado nuestra aplicación de encuesta.
 
+    APK
+        *Android Aplication Package* empaquetado de aplicación Android
