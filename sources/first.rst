@@ -23,7 +23,7 @@ Para contribuir con la recolección de datos sigue los pasos para instalar en tu
 Instalar la Encuesta
 ---------------------
 
-Para instalar la aplicación :term:`Activity Survey` de encuesta accede a este URL `<https://goo.gl/GjmMl3>`_ o por medio de la siguiente
+Para instalar la aplicación :term:`Activity Survey` de encuesta accede a este URL `<https://goo.gl/JHNL1B>`_ o por medio de la siguiente
 imagen:
 
 .. figure:: _static/qr_url.svg
@@ -31,8 +31,16 @@ imagen:
   
    Acceso al instalador *Activity Survey*
    
+Descarga la aplicación desde
+`Google Play Store <https://play.google.com/store/apps/details?id=org.harsurvey.android.survey>`_.
 
-Registrate con tu cuenta de Google y acepta ser un *beta tester*.
+.. figure:: images/inst_app5.jpg
+   :scale: 25%
+   :alt: instalación de la encuesta
+
+   Instalador desde Google Play
+
+Si queres registrarte como un *beta tester* registrate con tu cuenta de Google en `<https://goo.gl/GjmMl3>`_.
 
 +---------------------+---------------------+---------------------+ 
 | Ingresar el URL     | Logearse a Google   | Aceptar ser tester  | 
@@ -50,14 +58,6 @@ Registrate con tu cuenta de Google y acepta ser un *beta tester*.
 .. |step_3| image:: images/inst_app4.jpg
    :scale: 25%
 
-Luego de aceptar ser beta tester seguir el enlace para descargar la aplicación desde
-`Google Play Store <https://play.google.com/store/apps/details?id=org.harsurvey.android.survey&ah=GrnRu_BrV1psAZv5dXFHUqJA0so>`_.
-
-.. figure:: images/inst_app5.jpg
-   :scale: 25%
-   :alt: instalación de la encuesta
-
-   Instalador desde Google Play
 
 Para finalizar debes configurar la aplicación siguiendo los pasos en :ref:`har-config`.
 
