@@ -38,5 +38,6 @@ Autores
    contrib
    config_adic
    glossary
+   privacy
 
 
